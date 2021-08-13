@@ -2,14 +2,16 @@
   "name": "blog-json-server-react-native",
   "version": "1.0.0",
   "description": "It is a json server for supporting the blog app which is built using react native",
+  "main": "server.js",
   "scripts": {
-    "db": "json-server -w db.json",
-    "start": "npm run db"
+    "start": "node server.js"
   },
   "author": "Avinash Kumar",
   "license": "ISC",
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
   "dependencies": {
-    "json-server": "^0.16.3",
-    "ngrok": "^4.0.1"
+    "json-server": "^0.16.3"
   }
 }
